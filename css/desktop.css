@@ -1,0 +1,119 @@
+/* REGULAR ELEMENTS */
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 16px;
+}
+
+input, textarea {
+  margin-bottom: 25px;
+}
+
+/* UTILITIES */
+.btn {
+  font-size: 20px;
+  border: 2px solid #fff;
+}
+
+/* HEADER */
+#main-header h1,
+#main-header h3,
+#main-header .btn {
+  margin-left: 110px;
+}
+
+.me {
+  width: 45%;
+}
+
+/* OFFER */
+.service {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* MY PROJECTS */
+#my-projects .project {
+  /* margin-bottom: 30px; */
+  padding: 25px 50px;
+}
+
+#my-projects .project:last-child {
+  margin-bottom: 40px;
+}
+
+#my-projects .project-photo,
+#my-projects .project-description {
+  min-height: 300px;
+  padding-top: 30px;
+}
+
+/* MOTTO */
+#motto p {
+  font-size: 26px;
+}
+
+#motto p + p {
+  font-size: 16px;
+}
+
+/* MY INTERESTS */
+.interest {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  height: 300px;
+}
+
+.interest img {
+  width: 100%;
+  transition: all .4s;
+}
+
+.interest:hover img {
+  transform: scale(1.2);
+}
+
+#my-interests span {
+  width: 100%;
+  height: 100%;
+  padding-top: 110px;
+  font-size: 26px;
+  transition: all .4s;
+  opacity: 0;
+}
+
+#my-interests span:hover {
+  opacity: 1;
+}
+
+/* CONTACT */
+#contact #contact-form,
+#contact .socials {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+#contact #contact-form {
+  padding-top: 50px;
+}
+
+#contact .socials {
+  padding-left: 50px;
+}
+
+#contact img {
+  margin-right: 30px;
+}
